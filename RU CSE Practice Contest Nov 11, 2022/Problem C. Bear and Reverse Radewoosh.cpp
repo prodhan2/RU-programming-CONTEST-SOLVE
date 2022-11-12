@@ -49,7 +49,7 @@ int main()
     }
 
 
-    cout<<totalpoint<<endl;
+  //  cout<<totalpoint<<endl;
     //RADEWOOSH
      for(int i=n-1;i>=0;i--)
     {
@@ -58,7 +58,7 @@ int main()
       totalpointR =  totalpointR+max(0,score[i] - totalTimeR *c);
     }
 
-    cout<<totalpointR<<endl;
+  //  cout<<totalpointR<<endl;
 
 
     if(totalpoint > totalpointR)
